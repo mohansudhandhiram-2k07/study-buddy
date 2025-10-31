@@ -8,7 +8,54 @@ This project was fully designed and prototyped in the Wokwi online simulator.
 
 You can run the complete, working simulation right in your browser by visiting this link:
 
-https://wokwi.com/projects/446194638499401729
+What is Study Buddy?
+
+Study Buddy is your personal on-desk productivity partner!
+Built on the ESP32 (simulated using Wokwi
+), he’s got a personality, mood-based lighting, and smart study modes — all packed into one lil' device that feels alive.
+
+This project was developed as part of my exploration into IoT + embedded systems, focusing on creativity, usability, and fun tech vibes.
+
+ Features
+
+ OLED Display — Shows messages, modes, and personality states
+ Multiple Modes — Study, Focus, and Chill modes with different lighting behaviors
+ RGB LED — Smooth animations and ambient mood lighting
+ Personality — Friendly messages, sass included 😌
+ Wokwi Compatible — 100% virtual simulation, no physical board required!
+
+ Simulation
+
+This project was built and tested using Wokwi, a virtual electronics simulator.
+No ESP32 was harmed in the making of this project. 😆
+
+ Try it here: https://wokwi.com/projects/446194638499401729
+
+
+
+ Technologies Used
+
+ESP32 microcontroller
+
+C++ / Arduino IDE
+
+SSD1306 OLED Display
+
+Wokwi Simulator
+
+ Behind the Scenes
+
+Study Buddy wasn’t just about code — it was about building something that reflects the student grind.
+Late-night debugging, design tweaking, and making sure my lil’ LED friend actually breathes like a sentient lamp 
+
+ Future Plans
+
+ Add real-time data (timer tracking, focus analytics)
+ Build a physical version
+ Maybe give him a voice…? 
+
+
+
 
 
  Features
@@ -32,7 +79,7 @@ OLED Status Display: Clearly shows the current mode and timer duration when idle
 
 Automatic Flow: The "Deep Focus" mode automatically transitions from the study session to the break session.
 
-📁 Project Files
+Project Files
 
 sketch.ino: The main C++ source code for the ESP32. It contains all the logic for the timers, buttons, screen, and LED.
 
