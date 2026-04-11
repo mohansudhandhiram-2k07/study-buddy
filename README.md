@@ -35,7 +35,7 @@ graph TD;
 |-----------|-------|
 | Microcontroller | ESP32 (Xtensa Dual-Core 32-bit LX6 @ 240 MHz) |
 | Framework | PlatformIO / ESP-IDF |
-| Sensors | MPU6050 (IMU) |
+| Sensors | INMP441 |
 | Sensor Protocol | I2C @ 400 kHz (fast-mode) |
 | Telemetry Protocol | MQTT over WiFi |
 
